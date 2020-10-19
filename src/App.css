@@ -1,11 +1,40 @@
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-.container {
-  border: solid 1px black;
-  margin: 16px;
+
+body {
+  background-color: black;
+  font-family: 'Quicksand', 'arial', sans-serif;
+  padding: 32px;
+}
+
+h1 {
+  color: gold;
+  margin-bottom: 32px;
+}
+
+h2, p {
+  text-align: center;
+}
+
+h2 {
+  color: midnightBlue;
+}
+
+p {
+  color: black;
+}
+
+.composite {
+  background-color: darkGrey;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 32px;
+  margin-right: 32px;
   padding: 16px;
 }
